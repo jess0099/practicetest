@@ -22,7 +22,7 @@ public class Spicejetpage {
 	By paxtype=By.xpath("//div[text()='Senior Citizen']");
 	By srchfligt=By.xpath("//div[text()='Search Flight']");
 	
-	
+	//constructor
 	public Spicejetpage(WebDriver driver) {
 		this.driver=driver;
 	}

@@ -40,6 +40,7 @@ public class AirIndiaTest {
 		aip.Classtype();
 		aip.promtioncode();
 		aip.findflight();
+		System.out.println("finished");
 		
 	}
 

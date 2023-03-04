@@ -1,0 +1,171 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-20T08:29:49.893Z",
+        "line": 12,
+        "name": "Test the login page",
+        "description": "",
+        "id": ";test-the-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: chrome not reachable\nBuild info: version: \u00274.1.3\u0027, revision: \u00277b1ebf28ef\u0027\nSystem info: host: \u0027ADMIN_SRV-PC\u0027, ip: \u0027169.254.21.91\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_05\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:164)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:106)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:93)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:48)\r\n\tat Stepdefination.Testlogin.set_up_the_browser(Testlogin.java:18)\r\n\tat ✽.Set up the browser(file:///C:/Users/Admin_SRV/eclipse-workspace/testpractice1/src/test/resources/Feature/login.feature:4)\r\n",
+              "duration": 234690000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Set up the browser",
+            "match": {
+              "location": "Stepdefination.Testlogin.set_up_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "enter the URL",
+            "match": {
+              "location": "Stepdefination.Testlogin.enter_the_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "enter the Amit and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amit",
+                  "offset": 10
+                },
+                {
+                  "val": "12345",
+                  "offset": 19
+                }
+              ],
+              "location": "Stepdefination.Testlogin.enter_the_username_and_passwword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "Stepdefination.Testlogin.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "navigate to  Home page",
+            "match": {
+              "location": "Stepdefination.Testlogin.navigate_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-20T08:33:46.689Z",
+        "line": 13,
+        "name": "Test the login page",
+        "description": "",
+        "id": ";test-the-login-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: chrome not reachable\nBuild info: version: \u00274.1.3\u0027, revision: \u00277b1ebf28ef\u0027\nSystem info: host: \u0027ADMIN_SRV-PC\u0027, ip: \u0027169.254.21.91\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_05\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:164)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:106)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:93)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:48)\r\n\tat Stepdefination.Testlogin.set_up_the_browser(Testlogin.java:18)\r\n\tat ✽.Set up the browser(file:///C:/Users/Admin_SRV/eclipse-workspace/testpractice1/src/test/resources/Feature/login.feature:4)\r\n",
+              "duration": 74434000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Set up the browser",
+            "match": {
+              "location": "Stepdefination.Testlogin.set_up_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "enter the URL",
+            "match": {
+              "location": "Stepdefination.Testlogin.enter_the_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "enter the messi and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "messi",
+                  "offset": 10
+                },
+                {
+                  "val": "12345",
+                  "offset": 20
+                }
+              ],
+              "location": "Stepdefination.Testlogin.enter_the_username_and_passwword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "Stepdefination.Testlogin.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "navigate to  Home page",
+            "match": {
+              "location": "Stepdefination.Testlogin.navigate_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/login.feature",
+    "tags": []
+  }
+]

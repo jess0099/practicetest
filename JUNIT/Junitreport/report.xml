@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="312.725">
+<testcase classname="Unknown" name="Test the login page" time="235.976">
+<failure message="Could not start a new session. Response code 500. Message: chrome not reachable&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'ADMIN_SRV-PC', ip: '169.254.21.91', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_05'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[Given Set up the browser....................................................failed
+And enter the URL...........................................................skipped
+When enter the Amit and 12345...............................................skipped
+And click on login button...................................................skipped
+Then navigate to  Home page.................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'ADMIN_SRV-PC', ip: '169.254.21.91', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+	at Stepdefination.Testlogin.set_up_the_browser(Testlogin.java:18)
+	at ✽.Set up the browser(file:///C:/Users/Admin_SRV/eclipse-workspace/testpractice1/src/test/resources/Feature/login.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Unknown" name="Test the login page 2" time="74.449">
+<failure message="Could not start a new session. Response code 500. Message: chrome not reachable&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'ADMIN_SRV-PC', ip: '169.254.21.91', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_05'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[Given Set up the browser....................................................failed
+And enter the URL...........................................................skipped
+When enter the messi and 12345..............................................skipped
+And click on login button...................................................skipped
+Then navigate to  Home page.................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'ADMIN_SRV-PC', ip: '169.254.21.91', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+	at Stepdefination.Testlogin.set_up_the_browser(Testlogin.java:18)
+	at ✽.Set up the browser(file:///C:/Users/Admin_SRV/eclipse-workspace/testpractice1/src/test/resources/Feature/login.feature:4)
+]]></failure>
+</testcase>
+</testsuite>

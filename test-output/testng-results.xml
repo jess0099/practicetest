@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30401" started-at="2023-02-20T18:56:55 IST" finished-at="2023-02-20T18:57:26 IST">
+  <suite started-at="2023-03-05T17:20:11 IST" name="Default suite" finished-at="2023-03-05T17:20:14 IST" duration-ms="2678">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30401" started-at="2023-02-20T18:56:55 IST" finished-at="2023-02-20T18:57:26 IST">
-      <class name="JavaPrograms.Revresenumber">
-        <test-method status="PASS" signature="fab()[pri:0, instance:JavaPrograms.Revresenumber@1553d26]" name="fab" duration-ms="7367" started-at="2023-02-20T18:56:55 IST" finished-at="2023-02-20T18:57:03 IST">
+    <test started-at="2023-03-05T17:20:11 IST" name="Default test" finished-at="2023-03-05T17:20:14 IST" duration-ms="2678">
+      <class name="JavaPrograms.PallendiromProgram">
+        <test-method signature="Pallendiromprogrm()[pri:0, instance:JavaPrograms.PallendiromProgram@44821a96]" started-at="2023-03-05T17:20:11 IST" name="Pallendiromprogrm" finished-at="2023-03-05T17:20:14 IST" duration-ms="2611" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fab -->
-        <test-method status="PASS" signature="factorialProgram()[pri:0, instance:JavaPrograms.Revresenumber@1553d26]" name="factorialProgram" duration-ms="0" started-at="2023-02-20T18:57:03 IST" finished-at="2023-02-20T18:57:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- factorialProgram -->
-        <test-method status="PASS" signature="numbers()[pri:0, instance:JavaPrograms.Revresenumber@1553d26]" name="numbers" duration-ms="7" started-at="2023-02-20T18:57:03 IST" finished-at="2023-02-20T18:57:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- numbers -->
-        <test-method status="PASS" signature="revrseNum()[pri:0, instance:JavaPrograms.Revresenumber@1553d26]" name="revrseNum" duration-ms="0" started-at="2023-02-20T18:57:03 IST" finished-at="2023-02-20T18:57:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- revrseNum -->
-        <test-method status="PASS" signature="rightpattern()[pri:0, instance:JavaPrograms.Revresenumber@1553d26]" name="rightpattern" duration-ms="16" started-at="2023-02-20T18:57:03 IST" finished-at="2023-02-20T18:57:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rightpattern -->
-        <test-method status="PASS" signature="revstring()[pri:0, instance:JavaPrograms.Revresenumber@1553d26]" name="revstring" duration-ms="0" started-at="2023-02-20T18:57:03 IST" finished-at="2023-02-20T18:57:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- revstring -->
-        <test-method status="PASS" signature="swpnumber()[pri:0, instance:JavaPrograms.Revresenumber@1553d26]" name="swpnumber" duration-ms="22914" started-at="2023-02-20T18:57:03 IST" finished-at="2023-02-20T18:57:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- swpnumber -->
-      </class> <!-- JavaPrograms.Revresenumber -->
+        </test-method> <!-- Pallendiromprogrm -->
+      </class> <!-- JavaPrograms.PallendiromProgram -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

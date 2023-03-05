@@ -132,8 +132,8 @@ public class Revresenumber {
 	String st="amit123";
 		
 		String b=" ";
-		for(int i=st.lenght()-1;i>=0;i--){
-			    b=b+st.charAT(i);
+		for(int i=st.length()-1;i>=0;i--){
+			    b=b+st.charAt(i);
 		}
 		System.out.println("revrsevalue :"+b);
 			
